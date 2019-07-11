@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BOOTSTRAP THEME</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.css">
+	<script type="text/javascript" src="bootstrap/dist/js/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="bootstrap/dist/js/bootstrap.js"></script>
+</head>
+	<style type="text/css">
+		nav{
+			position: fixed;
+		}
+		.collapse span{
+			position: absolute;
+			right: 0;
+		}
+		.collapse span input{
+			width: 180px;
+			border-style: none;
+			height: 30px;
+			border-radius: 5px;
+			border: 1px solid black;
+			padding-left: 10px;
+			transition: 0.4s;
+		}
+		.collapse span input:focus{
+			width: 300px;
+		}
+		#mdinput{
+			width: 80%;
+			height: 35px;
+			border-radius: 5px;
+			border-style: none;
+			padding-left: 10px;
+			font-size: 12pt;
+			border: 1px solid lightgrey;
+		}
+	</style>
+<body>
+	<nav class="navbar navbar-expand-md" style="background: #3097D1">
+		<a href="" class="navbar-brand offset-1"><img src="logo.png" style="width: 100px;"></a>
+		<button href="" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#x">
+				<span class="navbar-toggler-icon bg-white"></span>
+		</button>
+		<div class="collapse navbar-collapse offset-1" id="x">
+		<ul class="nav nav-bar">
+			<li class="nav-item pl-3"><a href="" class="text-white" style="text-decoration: none">Home</a></li>
+			<li class="nav-item pl-3"><a href="" class="text-white" style="text-decoration: none">Profile</a></li>
+			<li class="nav-item pl-3"><a href="" class="text-white" style="text-decoration: none">Message</a></li>
+			<li class="nav-item pl-3"><a href="" class="text-white" style="text-decoration: none">Docs</a></li>
+		</ul>
+		<span>
+			<input type="text" name="" placeholder="Search">
+			<img src="notification.png" style="opacity: 0.7;">
+			<img src="avatar.png" class="rounded-circle" width="40px">
+		</span>
+	</div>
+	</nav>
+	<div class="container-fluid pb-4" style="background: #F5F8FA">
+		<div class="row pl-md-5 pt-4 ">
+			<div class="col-md-3 pl-2">
+					<div class="card" style="background: #081F2c">
+						<div class="card-body" style="height: 30vh">
+						</div>
+					</div>
+					<div class="card" style="text-align: center;">
+						<div class="card-body" style="margin-top: -70px;">
+							<img src="avatar.png" class="rounded-circle" width="100px" style="border: 2px solid white;">
+							<p><b>Dave Gamache</b></p>
+							<p><small>I wish i was a little bit taller, wish i <br>was a baller, wish i had a girl… also.</small></p>
+							<div style="display: inline-block; border-right: 1px solid grey; padding-right: 10px">
+								<h6>Friends</h6>
+								<div><h5>12M</h5></div>
+							</div>
+							<div style="display: inline-block; padding-left:10px">
+								<h6>Enemies</h6>
+								<div><h5>1</h5></div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="card mt-4">
+						<div class="card-body">
+							<h5 style="display: inline-block;"><b>About.</b> </h5><a href="">&nbsp;<big>Edit</big></a>
+							<h6>Went to <a href="">Oh, Canada</a></h6>
+							<h6>Became friends with <a href="">Obama</a></h6>
+							<h6>Worked at <a href="">Github</a></h6>
+							<h6>Lives in <a href="">San Francisco, CA</a></h6>
+							<h6>From <a href="">Seattle WA</a></h6>
+						</div>
+					</div>
+					<div class="card mt-4">
+						<div class="card-body">
+							<h5 style="display: inline-block;"><b>Photos.</b> </h5><a href="">&nbsp;<big>Edit</big></a>
+							<div class="row">
+								<div class="col-6"><img src="instagram_5.jpg" width="120px" style="margin-bottom: 10px"></div>
+								<div class="col-6"><img src="instagram_6.jpg" width="120px" style="margin-bottom: 10px"></div>
+							</div>
+							<div class="row">
+								<div class="col-6"><img src="instagram_7.jpg" width="120px" style="margin-bottom: 10px"></div>
+								<div class="col-6"><img src="instagram_8.jpg" width="120px" style="margin-bottom: 10px"></div>
+							</div>
+							<div class="row">
+								<div class="col-6"><img src="instagram_9.jpg" width="120px" style="margin-bottom: 10px"></div>
+								<div class="col-6"><img src="instagram_10.jpg" width="120px" style="margin-bottom: 10px"></div>
+							</div>
+						</div>
+					</div>
+			</div>
+			<div class="col-md-5 ml-md-1">
+				<div class="card">
+					<div class="card-body pt-3">
+						<input type="text" name="" placeholder="Message" id="mdinput">
+						<img src="camera.png" style="background: lightgrey; border-radius: 5px">
+						<div class="row mt-3  pt-3" style="border-top: 1px solid lightgrey">
+							<div class="col-md-12" style="border-bottom: 1px solid lightgrey">
+								<div class="row">
+									<div class="col-md-2"><img class="rounded-circle" src="avatar.png" width="60px"></div>
+									<div class="col-md-10">
+									<div class="row">
+									<h6 style="display: inline-block;"><b>Dave Gamache</b></h6><br>
+									Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+									<div class="row mt-2">
+										<div class="col-6">
+											<img src="unsplash_1.jpg" width="100%" height="100%">
+										</div>
+										<div class="col-6">
+											<img src="instagram_1.jpg" width="100%" height="100%">
+										</div>
+									</div>
+									<div class="row mt-2">
+										<div class="col-6">
+											<img src="instagram_13.jpg" width="100%" height="100%">
+										</div>
+										<div class="col-6">
+											<img src="unsplash_2.jpg" width="100%" height="100%">
+										</div>
+									</div>
+									<div class="row mt-3">
+										<div class="col-1">
+											<img src="avatar2.jpg" width="50px" class="rounded-circle">
+										</div>
+										<div class="col-9 ml-5">
+											<p><b>Jacon Thorthon:</b> Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis</p>
+										</div>
+									</div>
+									<div class="row mt-3">
+										<div class="col-1">
+											<img src="avatar3.png" width="50px" class="rounded-circle">
+										</div>
+										<div class="col-9 ml-5">
+											<p><b>Mark Otto:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus</p>
+										</div>
+									</div>
+									</div>
+							</div>
+						</div>
+
+						<div class="row pl-3 mt-3">
+							<div class="col-1"><img src="avatar2.jpg" width="70px" class="rounded-circle"></div>
+							<div class="col-9 ml-5"><p><b>Jacon Thorthon:</b><br> Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis</p></div>
+						</div>
+						<hr>
+
+						<div class="row pl-3 mt-3">
+							<div class="col-1"><img src="avatar3.png" width="70px" class="rounded-circle"></div>
+							<div class="col-9 ml-5">
+								<div class="row">
+									<div class="col-md-12">
+									<p><b>Mark Otto:</b><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+									<img src="instagram_3.jpg" width="100%">
+									</div>
+								</div>
+							<div class="row pl-3 mt-3" style="text-align: center;">
+								<div class="col-md-1 col-sm-12"><img src="avatar.png" width="70px" class="rounded-circle"></div>
+								<div class="col-12">
+									<div class="row">
+										<div class="col-md-12" style="text-align: left;">
+											<p align="center "><b>Dave Gamache:</b><br></p><p>Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis</p>
+										</div>
+									</div>
+								</div>
+							<!-- </div> -->
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="col-md-3">
+				<div class="row">
+					<div class="col-12 bg-warning">
+						<p><a href=""><b>Visit your Profile! </b></a>Check yourself, you aren't looking good</p>
+					</div>
+				</div>
+				<div class="card mt-3">
+					<div class="card-body">
+						<h6><b>Sponsored</b></h6>
+						<img src="instagram_2.jpg" width="100%">
+						<h6 class="mt-2"><b>It might be time to visit iceland</b></h6>
+						<p>Iceland is so chill, and everything looks cool here. Also, we heard the people are pretty nice. What are you waiting for?</p>
+					</div>
+					<button class="btn btn-primary">Buy a ticket</button>
+				</div>
+				<div class="card mt-3">
+					<div class="card-body">
+						<h6 style="display: inline-block;"><b>Likes.</b> </h6><a href="">&nbsp;<small>View all</small></a>
+						<div class="row">
+							<div class="col-4">
+								<img src="avatar2.jpg" class="rounded-circle" width="100%">
+							</div>
+							<div class="col-7">
+								<b>Jacob Thorthon </b><small>@fat</small><br>
+								<button class="btn btn-primary">Follow</button>
+							</div>
+						</div>
+						<div class="row mt-3">
+							<div class="col-4">
+								<img src="avatar3.png" class="rounded-circle" width="100%">
+							</div>
+							<div class="col-7">
+								<b>Mark Otto </b><small>@fat</small><br>
+								<button class="btn btn-primary">Follow</button>
+							</div>
+						</div>
+						<div class="row mt-5" style="border-top: 1px solid lightgrey; background: lightgrey">
+							Dave really likes these nerds, no one knows why though
+						</div>
+					</div>
+				</div>
+				<div class="card mt-3">
+					<div class="card-body">
+						&#169; 2018 Bootstrap
+					</div>
+				</div>
+			</div>
+	</div>
+</body>
+</html>
